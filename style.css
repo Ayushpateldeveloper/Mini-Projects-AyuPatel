@@ -15,6 +15,8 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  box-sizing: border-box;
+  padding: 25px;
     
 }
 .container{
@@ -24,6 +26,7 @@ h2{
   grid-gap: 10px;
 }
 .card{
+    
     width:100%;
     display: flex;
     flex-direction: column;
@@ -31,14 +34,22 @@ h2{
     align-items: center;
     border-radius: 5px;
     padding: 3px;
-    background-color: white;
+   
+
 }
 .card:hover{
     scale: 1.1 ;
     transition: ease-in 0.2s;
-    box-shadow: rgba(255, 255, 255, 0.25) 0px 25px 50px -12px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
 }
 .card h3{
+    background: none;
     margin-top: 10px;
     text-align: center;
     font-size: large;
@@ -51,6 +62,7 @@ h2{
    
 }
 .card p{
+    background: none;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -59,6 +71,7 @@ h2{
     text-decoration: none;
 }
 .card img{
+    background: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -67,4 +80,31 @@ h2{
     object-fit: contain;
     border-radius: 10px; 
     margin-top: 15px; 
+}
+
+.buttons{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin: 15px;
+    cursor: pointer;
+}
+#code-btn{
+    cursor: pointer;
+}
+button{
+    border-color: white;
+    color: white;
+    width: 100%;
+    padding: 2%;    
+    font-size: small;
+}
+
+button :link,:visited{
+    text-decoration: none;
+    color: white;
 }
