@@ -124,7 +124,6 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     gap: 60px;
-    padding-bottom: px;
     width: 85%;
     margin: 15px;
     cursor: pointer;
@@ -151,28 +150,335 @@ button :link,:visited{
 
 
 /* Responsive */
-@media only screen and (max-width: 1024px) {
-    /* CSS rules for screens up to 1024px */
-    body{
-        background-color: antiquewhite;
-    }
 
+
+  /* Styles for screens larger than 1200px */
+@media screen and (min-width: 1201px) and (max-width: 1380px) {
+    /* Add your CSS styles here for screens between 1201px and 1380px */
+    .card{
+        height: 100%;
+    }
+    .buttons button{
+        margin-top: -25px;
+    }
+    .card img{
+        width: 80%;
+        height: 50%;
+    }
+  }
+@media screen and (min-width: 1021px) and (max-width: 1200px) {
+    /* Add your CSS styles here for screens between 1201px and 1380px */
+   .card{
+    height: 100%;
+    margin:10px;
+   }
     .card h3{
-        font-size: medium;
+        font-size: 15px;
     }
     .card p{
-        font-size: x-small;
-        color:grey ;
-        letter-spacing: 0.5px;
-    }
-    .buttons{
         margin-top: -5px;
-        width: 90%;
-        gap: 30px;
+        font-size:small ;
+    }
+    .buttons button{
+        margin-top: -25px;
     }
     button{
-        padding: 2%;
-        font-size: small;
+        padding: 0%;
+        margin: 0;
+        font-size: 10px;
+        border-radius: 2px;
+    }
+    .card img{
+        width: 80%;
+        height: 90%;
+    }
+
+  }
+  
+@media screen and (min-width: 1020px) and (max-width: 1025px) {
+    /* Add your CSS styles here for screens between 1201px and 1380px */
+   .card{
+    height: 100%;
+    
+   }
+    .card h3{
+        font-size: 13px;
+    }
+    .card p{
+        margin-top: -5px;
+        font-size:10px ;
+    }
+    .buttons{
+        margin-top: 12px;
+    }
+    button{
+        padding: 0%;
+        margin: 0;
+        font-size: 10px;
+        border-radius: 2px;
+    }
+    .card img{
+        width: 80%;
+        height: 90%;
+    }
+
+  }
+@media only screen and (min-width:919px) and (max-width: 1020px) {
+    .card{
+        height: 100%;
+    }
+    .card img{
+        height:40%;
+        width: 90%;
+    }
+    .card p{
+        margin-top: 0px;
+    }
+    .buttons{
+        margin: 0;
+    }
+    .buttons button{
+        font-size: 9px;
+        width: 90%;
+        gap: 0px;
+        padding: 2px;
+        margin-bottom: 10px;
+        border:white solid 1px ;
+
     }
     
-  }
+  }  
+@media only screen and (min-width:700px) and (max-width: 919px) {
+    
+    .card{
+        height: 100%;
+    }
+    .card img{
+        height:40%;
+        width: 90%;
+    }
+    .card h3{
+        font-size: small;
+    }
+    .card p{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .buttons{
+        margin: 0;
+        gap:10px;
+        font-size: 10px;
+    }
+    .buttons button a span{
+        font-size: 10px;
+    }
+    .buttons button{
+        font-size: 5px;
+        width: 90%;
+        gap: 0px;
+        padding: 1px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        border:white solid 1px ;
+
+    }
+    
+  }  
+@media only screen and (min-width:500px) and (max-width: 700px) {
+   .container{
+    width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      box-sizing: border-box;
+      padding: 5px;
+   }
+    .card{
+        height: 100%;
+    }
+    .card img{
+        height:40%;
+        width: 90%;
+    }
+    .card h3{
+        font-size: small;
+    }
+    .card p{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .buttons{
+        margin: 0;
+        gap:10px;
+        font-size: 10px;
+    }
+    .buttons button a span{
+        font-size: 10px;
+    }
+    .buttons button{
+        font-size: 5px;
+        width: 90%;
+        gap: 0px;
+        padding: 1px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        border:white solid 1px ;
+
+    }
+    
+  }  
+@media only screen and (min-width:400px) and (max-width: 500px) {
+    .container{
+       width: 100%;
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       box-sizing: border-box;
+       align-items: center;
+       justify-content: center;
+       margin: 0;
+       padding: 0;
+    }
+     .card{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-bottom:10px ;
+        margin-top:10px ;
+     }
+     .card img{
+         height:50%;
+         width: 90%;
+     }
+     .card h3{
+         font-size: large;
+     }
+     .card p{
+         font-size: small;
+         margin-top: 0px;
+     }
+     .buttons{
+         margin: 0;
+         gap:10px;
+     }
+     .buttons button a span{
+         font-size: 15px;
+     }
+     .buttons button{
+         font-size: 5px;
+         width: 90%;
+         gap: 0px;
+         padding: 5px;
+         margin-top: -10px;
+         margin-bottom: 10px;
+         border:white solid 1px ;
+ 
+     }
+     
+  }    
+@media only screen and (min-width:300px) and (max-width: 400px) {
+    .container{
+       width: 100%;
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       box-sizing: border-box;
+       align-items: center;
+       justify-content: center;
+       margin: 0;
+       padding: 0;
+    }
+     .card{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-bottom:10px ;
+        margin-top:10px ;
+     }
+     .card img{
+         height:50%;
+         width: 90%;
+     }
+     .card h3{
+         font-size: large;
+     }
+     .card p{
+         font-size: 10px;
+         margin-top: 0px;
+     }
+     .buttons{
+         margin: 0;
+         gap:10px;
+     }
+     .buttons button a span{
+         font-size: 11px;
+     }
+     .buttons button{
+         font-size: 5px;
+         width: 90%;
+         gap: 0px;
+         padding: 5px;
+         margin-top: -10px;
+         margin-bottom: 10px;
+         border:white solid 1px ;
+ 
+     }
+     
+  }    
+@media only screen and  (max-width: 300px) {
+    .container{
+       width: 100%;
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       box-sizing: border-box;
+       align-items: center;
+       justify-content: center;
+       margin: 0;
+       padding: 0;
+    }
+     .card{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-bottom:10px ;
+        margin-top:10px ;
+     }
+     .card img{
+         height:50%;
+         width: 90%;
+     }
+     .card h3{
+         font-size: 15px;
+     }
+     .card p{
+         font-size: 10px;
+         margin-top: 0px;
+         padding: 0 0 5 0;
+     }
+     .buttons{
+         margin: 0;
+         gap:10px;
+     }
+     .buttons button a span{
+         font-size: 10px;
+     }
+     .buttons button{
+         font-size: 5px;
+         width: 90%;
+         gap: 0px;
+         padding: 3px;
+         margin-top: -10px;
+         margin-bottom: 10px;
+         border:white solid 1px ;
+ 
+     }
+     
+  }    
+  
