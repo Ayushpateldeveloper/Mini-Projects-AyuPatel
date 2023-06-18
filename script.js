@@ -1,5 +1,5 @@
 var descriptionarray="HTML structures web pages, defining elements like headings, paragraphs, and images. CSS styles HTML,controlling layout, colors, and fonts, enhancing the visual appeal anduser experience of web pages.";
-var showsrcimage="Add To Cart Interaction/add-to-cart-animation-showcase-photo.png";
+var showsrcimage="https://cdn.hackr.io/uploads/posts/large/15925654385a8PArotT5.png";
 var titlearray=[
     "Add To Card Button Animation",
     "Add-Remove Button Interaction",
