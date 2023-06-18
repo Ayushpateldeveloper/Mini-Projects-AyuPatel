@@ -87,7 +87,7 @@ var showprojectlink=[
 "https://github.com/Ayushpateldeveloper/Mini-Projects-AyuPatel/tree/main/To%20Do%20List",
 "https://github.com/Ayushpateldeveloper/Mini-Projects-AyuPatel/tree/main/Tower%20Block%20Game",
 ];
-var projectpreview=["/Add To Cart Interaction/index.html",
+var projectpreview=["Add To Cart Interaction/index.html",
 "Add-Remove Button Interaction/index.html",
 "Analog Clock/index.html",
 "Animated Loading Screen/index.html",
