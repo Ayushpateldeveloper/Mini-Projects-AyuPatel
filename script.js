@@ -1,7 +1,7 @@
 var descriptionarray="HTML structures web pages, defining elements like headings, paragraphs, and images. CSS styles HTML,controlling layout, colors, and fonts, enhancing the visual appeal anduser experience of web pages.";
 var showsrcimage="https://cdn.hackr.io/uploads/posts/large/15925654385a8PArotT5.png";
 var titlearray=[
-    "Add To Card Button Animation",
+    "Add To Card Button Interaction",
     "Add-Remove Button Interaction",
     "Analog Clock",
     "Animated Loading Screen",
@@ -87,7 +87,8 @@ var showprojectlink=[
 "https://github.com/Ayushpateldeveloper/Mini-Projects-AyuPatel/tree/main/To%20Do%20List",
 "https://github.com/Ayushpateldeveloper/Mini-Projects-AyuPatel/tree/main/Tower%20Block%20Game",
 ];
-var projectpreview=["Add To Cart Interaction/index.html",
+var projectpreview=[
+"Add To Cart Interaction/index.html",
 "Add-Remove Button Interaction/index.html",
 "Analog Clock/index.html",
 "Animated Loading Screen/index.html",
